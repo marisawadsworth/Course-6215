@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E93CEACA-D684-45AE-9988-168DD7B5CB40}</ProjectGuid>
+    <ProjectGuid>{B9EF8159-0358-4163-93B2-35FE1356D6BF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Demo</RootNamespace>
     <AssemblyName>Demo</AssemblyName>
@@ -55,7 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="C:\Users\10002444\Zoo Animals.xaml">
+    <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -63,8 +63,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="C:\Users\10002444\Zoo Animals.xaml.cs">
-      <DependentUpon>Zoo Animals.xaml</DependentUpon>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -30,72 +30,69 @@
             </Grid>
             <Grid Grid.Column="0" Grid.Row="1" Background="#FFECD859">
             </Grid>
-            <Grid Grid.Column="1" Grid.Row="2" Background="#FFB0A48F">
+            <Grid Grid.Column="1" Grid.Row="2" Background="#FFDACDB6">
             </Grid>
-            <Grid Grid.Column="2" Grid.Row="2" Background="#FF837864">
+            <Grid Grid.Column="2" Grid.Row="2" Background="#FF9B907C">
             </Grid>
 
-            <Image x:Name="LionPicture" Source="H:\6215\Week 02\Demo\Demo\Lion.jpg" HorizontalAlignment="Left" Height="100" Margin="4,56,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="-0.989,0.034"/>
+            <Image x:Name="LionPicture" Source="H:\6215\Week 02\Demo\Demo\Lion.jpg" HorizontalAlignment="Left" Height="100" Margin="4,56,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="-0.989,0.034" />
             <Image x:Name="PandaPicture" Source="H:\6215\Week 02\Demo\Demo\Panda.jpg" HorizontalAlignment="Left" Height="100" Margin="4,56,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="-0.989,0.034" Grid.Column="1"/>
             <Image x:Name="MeerkatPicture" Source="H:\6215\Week 02\Demo\Demo\Meerkat.jpg" HorizontalAlignment="Left" Height="100" Margin="4,56,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="-0.989,0.034" Grid.Column="2"/>
             <Image x:Name="GiraffePicture" Source="H:\6215\Week 02\Demo\Demo\Giraffe.jpg" HorizontalAlignment="Left" Height="100" Margin="4,56,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="-0.989,0.034" Grid.Row="1"/>
             <Image x:Name="ElephantPicture" Source="H:\6215\Week 02\Demo\Demo\Elephant.jpg" HorizontalAlignment="Left" Height="100" Margin="4,56,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="-0.989,0.034" Grid.Row="1" Grid.Column="1"/>
             <Image x:Name="ZebraPicture" Source="H:\6215\Week 02\Demo\Demo\Zebra.jpg" HorizontalAlignment="Left" Height="100" Margin="4,56,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="-0.989,0.034" Grid.Row="1" Grid.Column="2"/>
         </Grid>
-        <TextBox HorizontalAlignment="Left" Height="70" Margin="10,15,0,0" TextWrapping="Wrap" Text="ZOO ANIMALS" VerticalAlignment="Top" Width="144" FontSize="24" FontWeight="Bold" TextAlignment="Center" Background="White"/>
-        <TextBox x:Name="LionTextBox"  Height="33" TextWrapping="Wrap" Text="Lion" VerticalAlignment="Top" Width="120" Margin="22,147,22,0" FontSize="20" TextAlignment="Center" TextChanged="LionTextBox_TextChanged">
-            <TextBox.Background>
+        <TextBox HorizontalAlignment="Left" Height="70" Margin="10,20,0,0" TextWrapping="Wrap" Text="ZOO ANIMALS" VerticalAlignment="Top" Width="144" FontSize="24" FontWeight="Bold" TextAlignment="Center" Background="White"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="22,95,0,0" TextWrapping="Wrap" Text="Choose an animal:" VerticalAlignment="Top" Width="120" TextAlignment="Center" TextDecorations="Underline"/>
+
+        <Button x:Name="LionButton" Content="Lion"  Margin="22,147,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+            <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFFBFB48" Offset="0"/>
-                    <GradientStop Color="#FFF09716" Offset="1"/>
-                    <GradientStop Color="#FFF8E73E" Offset="0.193"/>
-                    <GradientStop Color="#FFF7DD39" Offset="0.29"/>
+                    <GradientStop Color="#FFF09716" Offset="0"/>
+                    <GradientStop Color="#FFFBFB48" Offset="1"/>
                 </LinearGradientBrush>
-            </TextBox.Background>
-        </TextBox>
-        <TextBox HorizontalAlignment="Left" Height="36" Margin="22,90,0,0" TextWrapping="Wrap" Text="Choose an animal from the list:" VerticalAlignment="Top" Width="120" TextAlignment="Center" TextDecorations="Underline"/>
-        <TextBox x:Name="PandaTextBox"  Height="33" TextWrapping="Wrap" Text="Panda" VerticalAlignment="Top" Width="120" Margin="22,185,22,0" FontSize="20" TextAlignment="Center" TextChanged="TextBox_TextChanged" BorderBrush="#FF8699D3">
-            <TextBox.Background>
-                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-                    <GradientStop Color="#FF7A7373"/>
-                    <GradientStop Color="#FFFDFDFD" Offset="0.743"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="PandaButton" Content="Panda" Margin="22,185,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF7A7373" Offset="0"/>
+                    <GradientStop Color="#FFFDFDFD" Offset="1"/>
                 </LinearGradientBrush>
-            </TextBox.Background>
-        </TextBox>
-        <TextBox x:Name="MeerkatTextBox"  Height="33" TextWrapping="Wrap" Text="Meerkat" VerticalAlignment="Top" Width="120" Margin="22,223,22,0" FontSize="20" TextAlignment="Center">
-            <TextBox.Background>
+            </Button.Background>
+        </Button>
+        <Button x:Name="MeerkatButton" Content="Meerkat" Margin="22,223,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+            <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE69F4B" Offset="0"/>
                     <GradientStop Color="White" Offset="1"/>
                 </LinearGradientBrush>
-            </TextBox.Background>
-        </TextBox>
-        <TextBox x:Name="GiraffeTextBox"  Height="33" TextWrapping="Wrap" Text="Giraffe" VerticalAlignment="Top" Width="120" Margin="22,261,22,0" FontSize="20" TextAlignment="Center">
-            <TextBox.Background>
+            </Button.Background>
+        </Button>
+        <Button x:Name="GiraffeButton" Content="Giraffe" Margin="22,261,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+            <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFF1F13B" Offset="0.057"/>
+                    <GradientStop Color="#FFF1F13B" Offset="0"/>
                     <GradientStop Color="White" Offset="1"/>
                 </LinearGradientBrush>
-            </TextBox.Background>
-        </TextBox>
-        <TextBox x:Name="ElephantTextBox"  Height="33" TextWrapping="Wrap" Text="Elephant" VerticalAlignment="Top" Width="120" Margin="22,299,22,0" FontSize="20" TextAlignment="Center" TextChanged="TextBox_TextChanged">
-            <TextBox.Background>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ElephantButton" Content="Elephant" Margin="22,299,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+            <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF9E9A92" Offset="0"/>
                     <GradientStop Color="#FFEED4A4" Offset="1"/>
                 </LinearGradientBrush>
-            </TextBox.Background>
-        </TextBox>
-        <TextBox x:Name="ZebraTextBox"  Height="33" TextWrapping="Wrap" Text="Zebra" VerticalAlignment="Top" Width="120" Margin="22,337,22,0" FontSize="20" TextAlignment="Center">
-            <TextBox.Background>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ZebraButton" Content="Zebra" Margin="22,337,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+            <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF787878" Offset="0.007"/>
+                    <GradientStop Color="#FF787878" Offset="0"/>
                     <GradientStop Color="#FFF1F7F4" Offset="1"/>
                 </LinearGradientBrush>
-            </TextBox.Background>
-        </TextBox>
-
-
+            </Button.Background>
+        </Button>
 
 
     </Grid>

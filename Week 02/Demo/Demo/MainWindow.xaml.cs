@@ -24,10 +24,5 @@ namespace Demo
         {
             InitializeComponent();
         }
-        private void LionTextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
     }
 }
-

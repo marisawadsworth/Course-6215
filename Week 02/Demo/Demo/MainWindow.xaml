@@ -45,7 +45,7 @@
         <TextBox HorizontalAlignment="Left" Height="70" Margin="10,20,0,0" TextWrapping="Wrap" Text="ZOO ANIMALS" VerticalAlignment="Top" Width="144" FontSize="24" FontWeight="Bold" TextAlignment="Center" Background="White"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="22,95,0,0" TextWrapping="Wrap" Text="Choose an animal:" VerticalAlignment="Top" Width="120" TextAlignment="Center" TextDecorations="Underline"/>
 
-        <Button x:Name="LionButton" Content="Lion"  Margin="22,147,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+        <Button x:Name="LionButton" Content="Lion"  Margin="22,147,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120" Click="LionButton_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFF09716" Offset="0"/>
@@ -53,7 +53,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="PandaButton" Content="Panda" Margin="22,185,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+        <Button x:Name="PandaButton" Content="Panda" Margin="22,185,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120" Click="PandaButton_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF7A7373" Offset="0"/>
@@ -61,7 +61,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="MeerkatButton" Content="Meerkat" Margin="22,223,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+        <Button x:Name="MeerkatButton" Content="Meerkat" Margin="22,223,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120" Click="MeerkatButton_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE69F4B" Offset="0"/>
@@ -69,7 +69,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="GiraffeButton" Content="Giraffe" Margin="22,261,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+        <Button x:Name="GiraffeButton" Content="Giraffe" Margin="22,261,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120" Click="GiraffeButton_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFF1F13B" Offset="0"/>
@@ -77,7 +77,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="ElephantButton" Content="Elephant" Margin="22,299,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+        <Button x:Name="ElephantButton" Content="Elephant" Margin="22,299,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120" Click="ElephantButton_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF9E9A92" Offset="0"/>
@@ -85,7 +85,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="ZebraButton" Content="Zebra" Margin="22,337,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120">
+        <Button x:Name="ZebraButton" Content="Zebra" Margin="22,337,22,0" FontSize="20" Height="33" VerticalAlignment="Top" Width="120" Click="ZebraButton_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF787878" Offset="0"/>

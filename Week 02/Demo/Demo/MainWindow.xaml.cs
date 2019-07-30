@@ -24,5 +24,35 @@ namespace Demo
         {
             InitializeComponent();
         }
+
+        private void LionButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Lion");
+        }
+
+        private void PandaButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Panda");
+        }
+
+        private void MeerkatButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Meerkat");
+        }
+
+        private void GiraffeButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Giraffe");
+        }
+
+        private void ElephantButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Elephant");
+        }
+
+        private void ZebraButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Zebra");
+        }
     }
 }

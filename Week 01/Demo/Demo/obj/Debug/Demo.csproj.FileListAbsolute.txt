@@ -1,0 +1,15 @@
+H:\6215\Week 01\Demo\Demo\bin\Debug\Demo.exe.config
+H:\6215\Week 01\Demo\Demo\bin\Debug\Demo.exe
+H:\6215\Week 01\Demo\Demo\bin\Debug\Demo.pdb
+H:\6215\Week 01\Demo\Demo\obj\Debug\Demo.csprojAssemblyReference.cache
+H:\6215\Week 01\Demo\Demo\obj\Debug\MainWindow.g.cs
+H:\6215\Week 01\Demo\Demo\obj\Debug\App.g.cs
+H:\6215\Week 01\Demo\Demo\obj\Debug\Demo_MarkupCompile.cache
+H:\6215\Week 01\Demo\Demo\obj\Debug\Demo_MarkupCompile.lref
+H:\6215\Week 01\Demo\Demo\obj\Debug\MainWindow.baml
+H:\6215\Week 01\Demo\Demo\obj\Debug\Demo.g.resources
+H:\6215\Week 01\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+H:\6215\Week 01\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+H:\6215\Week 01\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+H:\6215\Week 01\Demo\Demo\obj\Debug\Demo.exe
+H:\6215\Week 01\Demo\Demo\obj\Debug\Demo.pdb

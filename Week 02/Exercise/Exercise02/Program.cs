@@ -15,10 +15,15 @@ namespace Exercise02
 
             foreach (var person in people)
             {
+                Console.Write("ID:");
                 Console.WriteLine(person.Id);
+                Console.Write("First Name:");
                 Console.WriteLine(person.FName);
+                Console.Write("First Last:");
                 Console.WriteLine(person.LName);
+                Console.Write("Email:");
                 Console.WriteLine(person.Email());
+                Console.Write("\n");
             }
 
         }

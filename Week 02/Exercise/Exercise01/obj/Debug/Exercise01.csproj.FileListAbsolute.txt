@@ -1,0 +1,6 @@
+H:\6215\Week 02\Exercise\Exercise01\bin\Debug\Exercise01.exe.config
+H:\6215\Week 02\Exercise\Exercise01\bin\Debug\Exercise01.exe
+H:\6215\Week 02\Exercise\Exercise01\bin\Debug\Exercise01.pdb
+H:\6215\Week 02\Exercise\Exercise01\obj\Debug\Exercise01.csproj.CoreCompileInputs.cache
+H:\6215\Week 02\Exercise\Exercise01\obj\Debug\Exercise01.exe
+H:\6215\Week 02\Exercise\Exercise01\obj\Debug\Exercise01.pdb

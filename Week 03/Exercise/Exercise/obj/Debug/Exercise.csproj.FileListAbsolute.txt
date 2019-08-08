@@ -1,0 +1,15 @@
+H:\6215\Week 03\Exercise\Exercise\bin\Debug\Exercise.exe.config
+H:\6215\Week 03\Exercise\Exercise\bin\Debug\Exercise.exe
+H:\6215\Week 03\Exercise\Exercise\bin\Debug\Exercise.pdb
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\Exercise.csprojAssemblyReference.cache
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\MainWindow.g.cs
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\App.g.cs
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\Exercise_MarkupCompile.cache
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\Exercise_MarkupCompile.lref
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\MainWindow.baml
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\Exercise.g.resources
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\Exercise.Properties.Resources.resources
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\Exercise.csproj.GenerateResource.cache
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\Exercise.csproj.CoreCompileInputs.cache
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\Exercise.exe
+H:\6215\Week 03\Exercise\Exercise\obj\Debug\Exercise.pdb

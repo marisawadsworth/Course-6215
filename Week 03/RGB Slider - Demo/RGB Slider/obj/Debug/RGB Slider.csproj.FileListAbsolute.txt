@@ -1,0 +1,15 @@
+H:\6215\Week 03\RGB Slider\RGB Slider\bin\Debug\RGB Slider.exe.config
+H:\6215\Week 03\RGB Slider\RGB Slider\bin\Debug\RGB Slider.exe
+H:\6215\Week 03\RGB Slider\RGB Slider\bin\Debug\RGB Slider.pdb
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\RGB Slider.csprojAssemblyReference.cache
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\MainWindow.g.cs
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\App.g.cs
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\RGB Slider_MarkupCompile.cache
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\RGB Slider_MarkupCompile.lref
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\MainWindow.baml
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\RGB Slider.g.resources
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\RGB_Slider.Properties.Resources.resources
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\RGB Slider.csproj.GenerateResource.cache
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\RGB Slider.csproj.CoreCompileInputs.cache
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\RGB Slider.exe
+H:\6215\Week 03\RGB Slider\RGB Slider\obj\Debug\RGB Slider.pdb

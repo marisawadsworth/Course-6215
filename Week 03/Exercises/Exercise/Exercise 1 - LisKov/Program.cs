@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Exercise_1___LisKov
 {
-    class Person
+    class Program
     {
         static void Main(string[] args)
         {
             List<Person> people = new List<Person>
             {
-                new Student("Abc", "def", 20),
-                new Teacher("Zyx", "wvu", 45),
-                new Officer("hig", "klm", 35)
+                new Student{FName = "Abc", LName = "def", Age = 20 },
+                new Teacher{FName = "Zyx", LName = "wvu", Age = 45 },
+                new Officer{FName = "hig", LName = "klm",Age = 35 }
             };
 
             foreach (var person in people)
@@ -29,68 +29,44 @@ namespace Exercise_1___LisKov
                 Console.WriteLine(person.Job());
                 Console.Write("\n");
             }
+
         }
-        class Person
-        {
-            string FName { get; set; }
-            string LName { get; set; }
-            int Age { get; set; }
-            string Job();
-        }
-        class Student
+
+    }
+
+
+        public class Person
         {
             public string FName { get; set; }
             public string LName { get; set; }
-
             public int Age { get; set; }
 
-            public Student(string f, string l, int a)
+            public virtual string Job()
             {
-                FName = f;
-                LName = l;
-                Age = a;
+                return "";
             }
-            public string Job()
+        }
+        public class Student : Person
+        {
+            public override string Job()
             {
                 return "Submit Assignments";
             }
         }
-        class Teacher
+        class Teacher : Person
         {
-            public string FName { get; set; }
-            public string LName { get; set; }
-
-            public int Age { get; set; }
-
-            public Teacher(string f, string l, int a)
-            {
-                FName = f;
-                LName = l;
-                Age = a;
-            }
-            public string Job()
+            public override string Job()
             {
                 return "Marks Assignments";
             }
         }
-        class Officer
+        class Officer : Person
         {
-            public string FName { get; set; }
-            public string LName { get; set; }
-
-            public int Age { get; set; }
-
-            public Officer(string f, string l, int a)
-            {
-                FName = f;
-                LName = l;
-                Age = a;
-            }
-            public string Job()
+            public override string Job()
             {
                 return "Issue Tickets";
             }
         }
-    }
+    
 
 }

@@ -5,3 +5,10 @@ H:\Exercises\Exercise\Exercise 3 - Interface Segregation\obj\Debug\Exercise 3 - 
 H:\Exercises\Exercise\Exercise 3 - Interface Segregation\obj\Debug\Exercise 3 - Interface Segregation.csproj.CoreCompileInputs.cache
 H:\Exercises\Exercise\Exercise 3 - Interface Segregation\obj\Debug\Exercise 3 - Interface Segregation.exe
 H:\Exercises\Exercise\Exercise 3 - Interface Segregation\obj\Debug\Exercise 3 - Interface Segregation.pdb
+H:\6215\Week 03\Exercises\Exercise\Exercise 3 - Interface Segregation\bin\Debug\Exercise 3 - Interface Segregation.exe.config
+H:\6215\Week 03\Exercises\Exercise\Exercise 3 - Interface Segregation\bin\Debug\Exercise 3 - Interface Segregation.exe
+H:\6215\Week 03\Exercises\Exercise\Exercise 3 - Interface Segregation\bin\Debug\Exercise 3 - Interface Segregation.pdb
+H:\6215\Week 03\Exercises\Exercise\Exercise 3 - Interface Segregation\obj\Debug\Exercise 3 - Interface Segregation.csprojAssemblyReference.cache
+H:\6215\Week 03\Exercises\Exercise\Exercise 3 - Interface Segregation\obj\Debug\Exercise 3 - Interface Segregation.csproj.CoreCompileInputs.cache
+H:\6215\Week 03\Exercises\Exercise\Exercise 3 - Interface Segregation\obj\Debug\Exercise 3 - Interface Segregation.exe
+H:\6215\Week 03\Exercises\Exercise\Exercise 3 - Interface Segregation\obj\Debug\Exercise 3 - Interface Segregation.pdb

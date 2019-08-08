@@ -32,5 +32,4 @@ namespace Exercise_3___Interface_Segregation
 
         }
     }
-
 }

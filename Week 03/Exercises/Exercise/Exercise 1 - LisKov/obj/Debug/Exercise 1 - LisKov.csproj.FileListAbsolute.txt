@@ -1,0 +1,7 @@
+H:\Exercises\Exercise\Exercise 1 - LisKov\obj\Debug\Exercise 1 - LisKov.csprojAssemblyReference.cache
+H:\Exercises\Exercise\Exercise 1 - LisKov\obj\Debug\Exercise 1 - LisKov.csproj.CoreCompileInputs.cache
+H:\Exercises\Exercise\Exercise 1 - LisKov\bin\Debug\Exercise 1 - LisKov.exe.config
+H:\Exercises\Exercise\Exercise 1 - LisKov\bin\Debug\Exercise 1 - LisKov.exe
+H:\Exercises\Exercise\Exercise 1 - LisKov\bin\Debug\Exercise 1 - LisKov.pdb
+H:\Exercises\Exercise\Exercise 1 - LisKov\obj\Debug\Exercise 1 - LisKov.exe
+H:\Exercises\Exercise\Exercise 1 - LisKov\obj\Debug\Exercise 1 - LisKov.pdb

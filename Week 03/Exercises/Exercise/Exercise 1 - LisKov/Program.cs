@@ -33,8 +33,6 @@ namespace Exercise_1___LisKov
         }
 
     }
-
-
         public class Person
         {
             public string FName { get; set; }

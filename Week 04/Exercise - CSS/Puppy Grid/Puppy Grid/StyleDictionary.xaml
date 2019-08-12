@@ -14,5 +14,13 @@
         <Setter Property="HorizontalAlignment" Value="Left" />
         <Setter Property="VerticalAlignment" Value="Top" />
     </Style>
+    <Style TargetType="Image" x:Key="Puppy01" >
+        <Setter Property="Opacity" Value="0.5" />
+        <Setter Property="Margin" Value="83, 57, 0, 0" />
+        <Setter Property="Width" Value="100" />
+        <Setter Property="Height" Value="100" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+    </Style>
 </ResourceDictionary>
 
